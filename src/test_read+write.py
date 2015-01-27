@@ -4,7 +4,7 @@ from bioc import BioCReader
 from bioc import BioCWriter
 
 test_file = '../test_input/PMID-8557975-simplified-sentences.xml'
-dtd_file = '../test_input/BioC.dtd'
+dtd_file = '../BioC.dtd'
 
 def main():
     bioc_reader = BioCReader(test_file, dtd_valid_file=dtd_file)
